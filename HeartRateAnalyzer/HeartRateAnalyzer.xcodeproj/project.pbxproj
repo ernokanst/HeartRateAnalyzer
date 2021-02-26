@@ -16,7 +16,6 @@
 		755354FA25E93F3D0016967E /* HeartRateAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755354F925E93F3D0016967E /* HeartRateAnalyzerTests.swift */; };
 		7553550525E93F3D0016967E /* HeartRateAnalyzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7553550425E93F3D0016967E /* HeartRateAnalyzerUITests.swift */; };
 		7553551925E93F9E0016967E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7553551725E93F5F0016967E /* HealthKit.framework */; };
-		7553551A25E93F9E0016967E /* HealthKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7553551725E93F5F0016967E /* HealthKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +34,6 @@
 			remoteInfo = HeartRateAnalyzer;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7553551B25E93F9E0016967E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7553551A25E93F9E0016967E /* HealthKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		755354DF25E93F2D0016967E /* HeartRateAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,7 +152,6 @@
 				755354DB25E93F2D0016967E /* Sources */,
 				755354DC25E93F2D0016967E /* Frameworks */,
 				755354DD25E93F2D0016967E /* Resources */,
-				7553551B25E93F9E0016967E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

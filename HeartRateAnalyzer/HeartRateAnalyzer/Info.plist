@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Для анализа данных необходимы... данные.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Для анализа данных необходимы... данные.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -54,13 +58,7 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
-	<string>Для анализа данных необходимы... данные.</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>Для анализа данных необходимы... данные.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
